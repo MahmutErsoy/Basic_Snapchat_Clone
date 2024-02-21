@@ -13,7 +13,6 @@ class SnapVC: UIViewController {
     @IBOutlet weak var timeLabel: UILabel!
     
     var selectedSnap : Snap?
-    var selectedTime : Int?
     var inputArray = [KingfisherSource]()
     
     override func viewDidLoad() {
@@ -21,11 +20,10 @@ class SnapVC: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        if let time = selectedTime {
-            timeLabel.text = "Time Left: \(time)"
-        }
-        
         if let snap = selectedSnap {
+            
+            timeLabel.text = "Time Left: \(snap.timeDifference)"
+            
             for imageUrl in snap.imageUrlArray {
                 inputArray.append(KingfisherSource(urlString: imageUrl)!)
             }
