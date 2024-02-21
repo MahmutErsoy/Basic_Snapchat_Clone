@@ -185,7 +185,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="803"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="622" id="Qpm-Dt-L8X" customClass="FeedCell">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="622" id="Qpm-Dt-L8X" customClass="FeedCell" customModule="BasicSnapchatClone" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="622"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Qpm-Dt-L8X" id="qb2-fy-IxI">
@@ -254,8 +254,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time Left:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZM-Pi-I6T">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time Left:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZM-Pi-I6T">
                                 <rect key="frame" x="59" y="86" width="258" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -263,12 +264,6 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="TyW-zF-Aqy"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="iZM-Pi-I6T" firstAttribute="top" secondItem="TyW-zF-Aqy" secondAttribute="top" constant="86" id="0Qp-7Z-Tou"/>
-                            <constraint firstItem="TyW-zF-Aqy" firstAttribute="trailing" secondItem="iZM-Pi-I6T" secondAttribute="trailing" constant="76" id="90V-Zc-t8S"/>
-                            <constraint firstItem="iZM-Pi-I6T" firstAttribute="leading" secondItem="TyW-zF-Aqy" secondAttribute="leading" constant="59" id="CWs-De-chz"/>
-                            <constraint firstItem="TyW-zF-Aqy" firstAttribute="bottom" secondItem="iZM-Pi-I6T" secondAttribute="bottom" constant="680" id="KyN-V1-I4p"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="C84-ni-EvK"/>
                     <connections>
