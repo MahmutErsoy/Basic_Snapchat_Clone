@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4B25F38C2B8510E1007128DB /* SnapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B25F38B2B8510E1007128DB /* SnapVC.swift */; };
 		4B25F38F2B8540A0007128DB /* UserSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B25F38E2B8540A0007128DB /* UserSingleton.swift */; };
+		4B4C043C2B862DC70020A9E3 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C043B2B862DC70020A9E3 /* FeedCell.swift */; };
+		4B4C043E2B8641D20020A9E3 /* Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C043D2B8641D20020A9E3 /* Snap.swift */; };
 		4B78589C2B84CDAE0084214D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B78589B2B84CDAE0084214D /* GoogleService-Info.plist */; };
 		4B78589E2B84D8020084214D /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B78589D2B84D8020084214D /* FeedVC.swift */; };
 		4B7858A02B84D8210084214D /* UploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B78589F2B84D8210084214D /* UploadVC.swift */; };
@@ -26,6 +28,8 @@
 		2A448F321116C04CAFE55214 /* Pods_BasicSnapchatClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BasicSnapchatClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B25F38B2B8510E1007128DB /* SnapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapVC.swift; sourceTree = "<group>"; };
 		4B25F38E2B8540A0007128DB /* UserSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSingleton.swift; sourceTree = "<group>"; };
+		4B4C043B2B862DC70020A9E3 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		4B4C043D2B8641D20020A9E3 /* Snap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snap.swift; sourceTree = "<group>"; };
 		4B78589B2B84CDAE0084214D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4B78589D2B84D8020084214D /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		4B78589F2B84D8210084214D /* UploadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadVC.swift; sourceTree = "<group>"; };
@@ -88,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				4B25F38E2B8540A0007128DB /* UserSingleton.swift */,
+				4B4C043D2B8641D20020A9E3 /* Snap.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -121,6 +126,7 @@
 				4BEB316A2B84CC05002105C1 /* LaunchScreen.storyboard */,
 				4BEB316D2B84CC05002105C1 /* Info.plist */,
 				4B78589B2B84CDAE0084214D /* GoogleService-Info.plist */,
+				4B4C043B2B862DC70020A9E3 /* FeedCell.swift */,
 			);
 			path = BasicSnapchatClone;
 			sourceTree = "<group>";
@@ -250,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B25F38F2B8540A0007128DB /* UserSingleton.swift in Sources */,
+				4B4C043E2B8641D20020A9E3 /* Snap.swift in Sources */,
 				4B78589E2B84D8020084214D /* FeedVC.swift in Sources */,
 				4BEB31642B84CC04002105C1 /* SignInVC.swift in Sources */,
 				4BEB31602B84CC04002105C1 /* AppDelegate.swift in Sources */,
@@ -257,6 +264,7 @@
 				4B25F38C2B8510E1007128DB /* SnapVC.swift in Sources */,
 				4BEB31622B84CC04002105C1 /* SceneDelegate.swift in Sources */,
 				4B7858A22B84D8660084214D /* SettingsVC.swift in Sources */,
+				4B4C043C2B862DC70020A9E3 /* FeedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
